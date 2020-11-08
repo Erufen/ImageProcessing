@@ -15,8 +15,8 @@ def compare(*args):
 
     image_composite.show()
 
-im1 = Image.open("../../_images/rose.jpg")
-im2 = Image.open("../../_images/ville.jpg")
-im3 = Image.open("../../_images/portrait.jpg")
-im4 = Image.open("../../_images/sunset.jpg")
+im1 = Image.open("chemin de l'image")
+im2 = Image.open("chemin de l'image")
+im3 = Image.open("chemin de l'image")
+im4 = Image.open("chemin de l'image")
 compare(im1, im2, im3, im4)

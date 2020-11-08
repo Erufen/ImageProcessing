@@ -1,6 +1,6 @@
 from PIL import Image
 
-from _utils import compare
+from * import compare
 
 im = Image.open("chemin de l'image")
 

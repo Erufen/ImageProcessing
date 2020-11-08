@@ -17,6 +17,6 @@ def compare(*args):
 
 im1 = Image.open("chemin de l'image")
 im2 = Image.open("chemin de l'image")
-im3 = Image.open(".chemin de l'image")
+im3 = Image.open("chemin de l'image")
 im4 = Image.open("chemin de l'image")
 compare(im1, im2, im3, im4)

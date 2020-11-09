@@ -18,5 +18,5 @@ for image in images:
         x_facteur, y_facteur = round(x/facteur), round(y/facteur)
         im_resize = im.resize((x_facteur, y_facteur))
         filname, ext = os.path.splitext(image)
-        new_filname = f"vignettes/{filname}-{x_facteur}x{y_facteur}_{ext}"
+        new_filname = f"vignettes/{filname}-{x_facteur}x{y_facteur}_{ext}" # vignettes = nom du dossier dans lequel on place nos images
         im_resize.save(new_filname)

@@ -5,7 +5,7 @@ import os
 # on récupère toutes les images
 images = glob("*.jpg")
 
-# facteur de réduction de l'image
+# liste des facteurs de réduction pour appliquer à l'image
 facteurs = [2, 3, 5, 10]
 
 # boucle sur les images

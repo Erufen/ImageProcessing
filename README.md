@@ -1,2 +1,2 @@
-# ImageProcessingPython
+# ImageProcessing
 Python only
